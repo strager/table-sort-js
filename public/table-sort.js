@@ -88,6 +88,7 @@ function tableSortJs(testingTableSortJS = false, domDocumentWindow = document) {
     }
 
     function sortFileSize(tableRows, columnData) {
+      // @@@
       const numberWithUnitType =
         /[.0-9]+(\s?B|\s?KB|\s?KiB|\s?MB|\s?MiB|\s?GB|\s?GiB|T\s?B|\s?TiB)/i;
       const unitType =
